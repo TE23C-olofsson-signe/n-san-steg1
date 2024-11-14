@@ -1,14 +1,14 @@
-﻿
+﻿using System.Runtime.CompilerServices;
 
-using System.ComponentModel.DataAnnotations;
-
-if (6 > 3)
-{
-    Console.WriteLine("Hello World");
-}
+// hello world  uppgiften. 
+// if (6 > 3)
+// {
+//     Console.WriteLine("Hello World");
+// }
 
 // Console.ReadLine(); 
 
+// andvändarnamn .
 // Console.WriteLine("Skriv rätt användarnamn");
 // string noname; 
 
@@ -24,6 +24,7 @@ if (6 > 3)
 
 // Console.ReadLine();
 
+//  användarnamn+lösenord. 
 // string användarnamn = "kalleanka"; 
 // string noname; 
 
@@ -49,18 +50,16 @@ if (6 > 3)
 // }
 // Console.ReadLine();
 
+// while loop som går tills Hello world har skrivits 32 gånger.  
 // int gånger = 0;
 // while(gånger<32) {
 //     Console.WriteLine("Hello world");
 //     gånger++;
 // } 
 
-// for(int gånger=0; gånger<32; gånger++ ){
-//      Console.WriteLine("Hello world");
-// }
-
 // Console.ReadLine();
 
+// While loop som går tills lösenordet är rätt.
 // string password = "";
 // while (password != "12345")
 // {
@@ -72,8 +71,7 @@ if (6 > 3)
 // }
 // Console.ReadLine();
 
-
-
+// for loop som frågar användaren skriva ett tal fem gånger sen om talet är mer än 5 skriver högre än fem. 
 // for (int i = 0; i < 5; i++)
 // {
 //     Console.WriteLine("skriv ett tal:");
@@ -90,6 +88,7 @@ if (6 > 3)
 
 // Console.ReadLine();
 
+// while loop går tills man skriver en string i loopen. 
 // string test = Console.ReadLine();
 // int test_tal = int.Parse(test);
 
@@ -122,47 +121,19 @@ if (6 > 3)
 
 // Console.ReadLine();
 
-
-
-// // Experiment
-// string korrekt_användarnamn = "kalleanka";
-// string inmatat_anv_namn;
-// bool done = false;
-
-
-// while (!done)
+// Gissa Talet. 
+// int gissatalet = 0; 
+// int rätttal= 50; 
+// while( gissatalet != rätttal )
 // {
-//     Console.WriteLine("Hej skriv rätt användarnamn");
-//     inmatat_anv_namn = Console.ReadLine();
+//     Console.WriteLine("Gissa rätt tal");
+//     string vilkettal=Console.ReadLine(); 
+//     int.TryParse(vilkettal,out gissatalet);
 
-//     if (korrekt_användarnamn == inmatat_anv_namn)
+//     if(gissatalet !=rätttal)
 //     {
-//         Console.WriteLine("Välkommen. Skriv rätt lösenord");
-//         done = true;
-//     }
-//     else
-//     {
-//         Console.WriteLine("Fel. Tryck return för att avsluta");
+//         Console.WriteLine("Fel försök igen"); 
 //     }
 // }
 
-// done = false;
-
-// const string lösenord = "12345";
-// while (! done)
-// {
-//     string password;
-//     password = Console.ReadLine();
-
-//     if (lösenord == password)
-//     {
-//         Console.WriteLine("Du kom in ");
-//         done = true;
-//     }
-//     else
-//     {
-//         Console.WriteLine("Fel! Försök igen!");
-//     }
-// }
-
-// Console.ReadLine();
+// Console.ReadLine(); 
