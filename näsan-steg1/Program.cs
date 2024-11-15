@@ -1,5 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
+﻿
 // hello world  uppgiften. 
 // if (6 > 3)
 // {
